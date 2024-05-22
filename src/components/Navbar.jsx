@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="fixed w-full">
       <div className="flex justify-between h-16 items-center bg-slate-300 px-4 ">
         <div>
-          <h1 className="font-extrabold uppercase">logo</h1>
+          <img src="/src/assets/logo.png" className="size-10"></img>
         </div>
         <button className="md:hidden" onClick={handleNav}>
           {isOpen ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
