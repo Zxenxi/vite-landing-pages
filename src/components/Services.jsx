@@ -3,11 +3,11 @@ import React from "react";
 const Services = () => {
   return (
     <div id="services" className="container mx-auto ">
-      <div className="flex flex-col  h-full justify-center items-center gap-5">
-        <div className="border-2 border-yellow-400">
+      <div className="flex flex-col min-h-screen justify-center items-center ">
+        <div className="">
           <h1 className="font-light text-4xl text-blue-500">Services</h1>
         </div>
-        <div className="border-2 border-red-900 flex flex-col md:flex-row justify-center items-center gap-7">
+        <div className=" flex flex-col md:flex-row justify-center items-center gap-7">
           <div>
             <img
               className="size-36 md:size-[300px]"
@@ -16,7 +16,7 @@ const Services = () => {
               srcset=""
             />
           </div>
-          <div className="border-2 border-black text-center md:text-left md:max-w-96 space-y-4">
+          <div className="text-center md:text-left md:max-w-96 space-y-4">
             <h1 className="font-semibold text-2xl">Back end Development</h1>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum
